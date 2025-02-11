@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circus</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/styles.css"> <!-- Rutas locales para Netlify -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="images/logo.webp" alt="Logo" class="rounded-circle"
+                    style="height: 80px; width: 80px; object-fit: cover;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link"  href="https://wa.me/5491130121451">contacto</a> </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    <header class="bg-primary text-white text-center d-flex justify-content-center align-items-center"
+        style="height: 70vh; position: relative;">
+        <div class="container" style="z-index: 2;">
+            <h1 class="title">Contactanos</h1>
+            <a href="https://wa.me/5491130121451" class="professional-button">contacto <span class="arrow">→</a> </span>
+            </a>
+        </div>
+        <img src="images/portada2.webp" alt="Portada"
+            class="img-fluid position-absolute top-0 start-0 w-100 h-100" style="object-fit: cover; z-index: 1;">
+    </header>
+
+    <!-- Servicios Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nuestros Espectáculos</h2>
+            <div class="row">
+                <!-- Show 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="bi bi-lightbulb-fill service-icon text-primary mb-3"></i>
+                            <h5 class="card-title">Show de Malabares</h5>
+                            <p class="card-text">Espectáculos visualmente impactantes con fuego, LED y elementos sorprendentes.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Show 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="bi bi-person-bounding-box service-icon text-primary mb-3"></i>
+                            <h5 class="card-title">Acrobacias Aéreas</h5>
+                            <p class="card-text">Rutinas en telas, aros y trapecios que desafían la gravedad con elegancia.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Show 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="bi bi-stars service-icon text-primary mb-3"></i>
+                            <h5 class="card-title">Shows Personalizados</h5>
+                            <p class="card-text">Espectáculos diseñados a medida según tu evento, combinando acrobacias, malabares, fuego y más.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios adicionales Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nuestros Servicios</h2>
+            <div class="row">
+                <!-- Servicio 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="bi bi-person-arms-up service-icon text-primary mb-3"></i>
+                            <h5 class="card-title">Acroyoga</h5>
+                            <p class="card-text">Espectaculares presentaciones de acroyoga que combinan fuerza, equilibrio y flexibilidad en impresionantes figuras acrobáticas.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Servicio 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="bi bi-fire service-icon text-primary mb-3"></i>
+                            <h5 class="card-title">Show de Fuego</h5>
+                            <p class="card-text">Impactantes presentaciones con fuego que hipnotizan al público con su destreza y control de las llamas.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Servicio 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="bi bi-lightbulb service-icon text-primary mb-3"></i>
+                            <h5 class="card-title">Espectáculos de Malabares</h5>
+                            <p class="card-text">Malabaristas profesionales que combinan destreza y creatividad con una gran variedad de objetos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-button">
+        <a href="https://wa.me/5491130121451" target="_blank">
+            <img src="images/whatsapp.png" alt="WhatsApp" class="img-fluid">
+                 
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div>
+            <a href="mailto:tuemail@dominio.com" class="btn btn-light mx-2" title="Enviar correo">
+                <i class="bi bi-envelope"></i> <!-- Icono para correo -->
+            </a>
+            <a href="tel:+1234567890" class="btn btn-light mx-2" title="Llamar">
+                <i class="bi bi-telephone"></i> <!-- Icono para teléfono -->
+            </a>
+        </div>
+        <p class="mt-5">&copy; 2025 Circus. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

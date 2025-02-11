@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circus</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/styles.css"> <!-- Rutas locales para Netlify -->
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="images/logo.webp" alt="Logo" class="rounded-circle"
+                    style="height: 80px; width: 80px; object-fit: cover;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="services.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link"  href="https://wa.me/5491130121451">contacto</a> </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="bg-primary text-white text-center d-flex justify-content-center align-items-center"
+        style="height: 70vh; position: relative;">
+        <div class="container" style="z-index: 2;">
+            <h1 class="title">Explora nuestros servicios</h1>
+            <a href="services.html" class="professional-button">
+                Ver más <span class="arrow">→</span>
+            </a>
+        </div>
+        <img src="images/portada.webp" alt="Portada"
+            class="img-fluid position-absolute top-0 start-0 w-100 h-100" style="object-fit: cover; z-index: 1;">
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Sobre Nosotros</h2>
+            <div class="row text-center mt-4">
+                <div class="col-md-4">
+                    <i class="bi bi-stars display-4 text-primary mb-3"></i>
+                    <h5 class="fw-bold">Espectáculos Impactantes</h5>
+                    <p>Ofrecemos shows llenos de emoción y adrenalina, combinando malabares, acrobacias y efectos visuales.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="bi bi-fire display-4 text-primary mb-3"></i>
+                    <h5 class="fw-bold">Arte y Pasión</h5>
+                    <p>Nuestros artistas son apasionados y altamente capacitados en disciplinas de circo y performance.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="bi bi-people-fill display-4 text-primary mb-3"></i>
+                    <h5 class="fw-bold">Para Todo Público</h5>
+                    <p>Desde eventos privados hasta grandes festivales, adaptamos el espectáculo a cada audiencia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Lo Que Ofrecemos</h2>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <i class="bi bi-lightbulb-fill display-4 text-primary mb-3"></i>
+                    <h5 class="fw-bold">Creatividad</h5>
+                    <p>Diseñamos espectáculos únicos que combinan arte, luz y movimiento.</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="bi bi-clock-fill display-4 text-primary mb-3"></i>
+                    <h5 class="fw-bold">Dinamismo</h5>
+                    <p>Performances enérgicas que mantienen al público asombrado de principio a fin.</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="bi bi-music-note-beamed display-4 text-primary mb-3"></i>
+                    <h5 class="fw-bold">Sincronización</h5>
+                    <p>Coreografías precisas que combinan música, ritmo y destreza.</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="bi bi-trophy-fill display-4 text-primary mb-3"></i>
+                    <h5 class="fw-bold">Impacto</h5>
+                    <p>Shows que dejan huella en el público y elevan cualquier evento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Lo Que Dicen Nuestros Clientes Sobre los Shows</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="bg-light p-4 rounded shadow text-center">
+                        <img class="rounded-circle mb-3" src="https://randomuser.me/api/portraits/men/86.jpg" alt="Cliente satisfecho" style="width: 100px; height: 100px; object-fit: cover;">
+                        <p>"El show fue impresionante, nunca había visto algo tan dinámico y emocionante. ¡Nos dejaron sin palabras!"</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-light p-4 rounded shadow text-center">
+                        <img class="rounded-circle mb-3" src="https://randomuser.me/api/portraits/women/87.jpg" alt="Usuario feliz" style="width: 100px; height: 100px; object-fit: cover;">
+                        <p>"Un espectáculo lleno de magia y adrenalina, perfecto para todo tipo de público. ¡Recomendado al 100%!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-button">
+        <a href="https://wa.me/5491130121451" target="_blank">
+            <img src="images/whatsapp.png" alt="WhatsApp" class="img-fluid">
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div>
+            <a href="mailto:tuemail@dominio.com" class="btn btn-light mx-2" title="Enviar correo">
+                <i class="bi bi-envelope"></i> <!-- Icono para correo -->
+            </a>
+            <a href="tel:+1234567890" class="btn btn-light mx-2" title="Llamar">
+                <i class="bi bi-telephone"></i> <!-- Icono para teléfono -->
+            </a>
+        </div>
+        <p class="mt-5">&copy; 2025 Circus. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
